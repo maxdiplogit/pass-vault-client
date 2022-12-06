@@ -1,0 +1,45 @@
+.newServiceForm {
+    background-color: #212529;
+    color: rgb(41, 177, 231);
+    border: 1px solid #212529;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.newServiceInput {
+    margin-top: 0.5rem;
+    text-align: center;
+    background-color: #212529;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1.5px solid rgb(41, 177, 231);
+    color: rgb(39, 216, 113);
+}
+
+.newServiceInput:focus {
+    outline: none;
+}
+
+.createButton {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    background-color: #212529;
+    border: 1px solid rgb(41, 177, 231);
+    color: rgb(221, 190, 86);
+}
+
+.createButton:hover {
+    transition: ease-in 200ms;
+    background-color: aliceblue;
+    color: rgb(39, 216, 113);
+}
